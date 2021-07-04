@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [somke Suite]" parallel="methods">
+  <listeners>
+    <listener class-name="listeners.ListenersFunction"/>
+  </listeners>
+  <test thread-count="3" name="login test(failed)" parallel="methods">
+    <classes>
+      <class name="testingPackage.LoginTest">
+        <methods>
+          <include name="assertURLTest"/>
+          <include name="openApplication"/>
+          <include name="skiipTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testingPackage.LoginTest -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [somke Suite] -->
