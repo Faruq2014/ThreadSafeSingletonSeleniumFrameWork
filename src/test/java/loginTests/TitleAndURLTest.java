@@ -1,4 +1,4 @@
-package testingPackage;
+package loginTests;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.Test;

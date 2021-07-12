@@ -6,8 +6,8 @@
  </listeners>
   <test  name="login test">
     <classes>
-      <class name="testingPackage.TitleAndURLTest"/>
-      <class name="testingPackage.LoginTest"/>
+      <class name="loginTests.TitleAndURLTest"/>
+      <class name="loginTests.LoginTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

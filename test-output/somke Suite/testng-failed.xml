@@ -6,14 +6,15 @@
   </listeners>
   <test thread-count="3" name="login test(failed)" parallel="methods">
     <classes>
-      <class name="testingPackage.LoginTest">
+      <class name="loginTests.LoginTest">
         <methods>
-          <include name="assertURLTest"/>
+          <include name="loginTest"/>
           <include name="openApplication"/>
-          <include name="skiipTitleTest"/>
+          <include name="assertURLTest"/>
           <include name="tearDown"/>
+          <include name="skiipTitleTest"/>
         </methods>
-      </class> <!-- testingPackage.LoginTest -->
+      </class> <!-- loginTests.LoginTest -->
     </classes>
   </test> <!-- login test(failed) -->
 </suite> <!-- Failed suite [somke Suite] -->
